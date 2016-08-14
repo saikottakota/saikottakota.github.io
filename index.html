@@ -52,13 +52,15 @@ SONALI MISHRA
 	<script src="js/jquery-1.11.1.min.js"></script> 
 	<script src="js/skrollr.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript">
-		 window.onload = function() 
-		 {
-			document.getElementById("preloader").style.display = 'none';
-			skrollr.init({
+	$(document).ready(function() {
+    $(window).load(function() {
+         $('#preloader').hide();
+         $('#wish1').show();
+         	skrollr.init({
 			forceHeight: false
 		});
-		}
+    });
+});
 		</script>
 </body>
 </html>
