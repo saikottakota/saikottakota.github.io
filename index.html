@@ -11,6 +11,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="css/style.css" rel='stylesheet' type='text/css' />	
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
 <!--/script-->
+<style>
+#preloader {
+		background:#89c3b4 center center no-repeat;
+		position:fixed;
+		left:0px; 
+		top:0px; 
+		width:100%; 
+		height:100%; 
+		z-index:1000;
+	}
+	</style>
 </head>
  <body>
  <!--start-home-->
@@ -41,7 +52,8 @@ SONALI MISHRA
 	<script src="js/jquery-1.11.1.min.js"></script> 
 	<script src="js/skrollr.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript">
-		 window.onload = function() {
+		 window.onload = function() 
+		 {
 			document.getElementById("preloader").style.display = 'none';
 			skrollr.init({
 			forceHeight: false
